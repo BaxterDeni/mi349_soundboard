@@ -2,6 +2,22 @@ body {
     background-color: lightgreen;
 }
 
+p {
+    color: black;
+}
+
+#splashTxt {
+    color: blue;
+}
+
+#fireTxt {
+    color: red;
+}
+
+#ducksTxt {
+    color: yellow;
+}
+
 button {
     size: 100px;
 
