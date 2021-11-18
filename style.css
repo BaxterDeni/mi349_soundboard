@@ -1,11 +1,30 @@
+body {
+    background-color: lightgreen;
+}
+
+button {
+    size: 50px;
+
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 #splashbtn {
     color: blue;
+    border: blue;
 }
 
 #firebtn {
     color: red;
+    border: red;
 }
 
 #ducksbtn {
     color: yellow;
+    border: yellow;
 }
+
