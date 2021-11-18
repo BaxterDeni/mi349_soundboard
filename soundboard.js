@@ -1,17 +1,20 @@
 var splashButton = document.getElementById('splashbtn')
 var fireButton = document.getElementById('firebtn')
 var ducksButton = document.getElementById('ducksbtn')
+var splashFX = new Audio('splash.wav')
+var fireFX = new Audio('Fire.wav')
+var ducksFX = new Audio('Ducks.wav')
 
 splashButton.addEventListener('click', function () {
-    console.log('Splash clicked!')
+    splashFX.play()
   })
 
 fireButton.addEventListener('click', function () {
-    console.log('Fire clicked!')
+   fireFX.play()
   })
 
 ducksButton.addEventListener('click', function () {
-    console.log('Ducks clicked!')
+    ducksFX.play()
   })
 
   
